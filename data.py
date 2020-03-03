@@ -75,9 +75,9 @@ x = 9
 
 # Code here
 
+print (math.sqrt(x))
 
-
-
+print (x**.5)
 
 
 ############# Q6. print the phrase "hello world" using the 2 variables defined below ############
@@ -88,7 +88,7 @@ string2 = "world"
 
 # Code here
 
-
+print (string1 + " " + string2)
 
 
 ############# Q7. Print the phrase "5 dogs" using the 2 variables defined below ############
@@ -99,8 +99,7 @@ string = "dogs"
 
 # Code here
 
-
-
+print (str(integer) + " " + string)
 ############# Q8. Print the sum of x and string ############
 # Topic: string concatenation
 
@@ -109,7 +108,7 @@ string = "5"
 
 # Code here
 
-
+print (x + int(string))
 
 ############# Q9. Print the sum of the first and third element in the list "numbers" and print the result ############
 # Topic: tuples
