@@ -76,6 +76,8 @@ x = 9
 
 import math
 print(math.sqrt(x))
+print(x**.5)
+
 
 
 
