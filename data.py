@@ -75,7 +75,8 @@ x = 9
 
 # Code here
 
-
+print(math.sqr†(x))
+print(x**.5)
 
 
 
@@ -88,7 +89,7 @@ string2 = "world"
 
 # Code here
 
-
+Print ( string1 + " " + string2)
 
 
 ############# Q7. Print the phrase "5 dogs" using the 2 variables defined below ############
