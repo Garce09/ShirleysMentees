@@ -60,9 +60,8 @@ y = 3
 # Code here
 
 
-z %= x/y
-p = z*x
-d = x/p 
+z = (x % y)
+x /= z*x
 print (x)
 
 ############# Q5. Print the square root of x IN 2 DIFFERENT WAYS ############
@@ -74,6 +73,9 @@ import math #import the math module
 x = 9
 
 # Code here
+
+import math
+print(math.sqrt(x))
 
 
 
@@ -87,7 +89,7 @@ string1 = "hello"
 string2 = "world"
 
 # Code here
-
+print(string1 + " " + string2)
 
 
 
@@ -98,7 +100,7 @@ integer = 5
 string = "dogs"
 
 # Code here
-
+print(str(integer) + " " + string)
 
 
 ############# Q8. Print the sum of x and string ############
@@ -108,7 +110,7 @@ x = 3
 string = "5"
 
 # Code here
-
+print(x + int(string))
 
 
 ############# Q9. Print the sum of the first and third element in the list "numbers" and print the result ############
