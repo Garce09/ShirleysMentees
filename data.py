@@ -59,8 +59,8 @@ y = 3
 
 # Code here
 
-
-z %= x/y
+x %= y
+z = x
 p = z*x
 d = x/p 
 print (x)
