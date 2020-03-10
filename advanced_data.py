@@ -5,7 +5,7 @@ numbers = (4, 9, 16, 36)
 
 # Code here
 
-
+print (numbers[0] + numbers[2])
 
 
 ############# Q10. Fill out the next 3 nubmers in the pattern using the append() function and print the result ############
@@ -15,10 +15,10 @@ numbers = [4, 9, 16, 25]
 
 # Code here
 
-
-
-
-
+numbers.append(36)
+numbers.append(49)
+numbers.append(64)
+print (numbers)
 
 
 ############# Q11. Append the sum of the 2nd and 4th element in the list "numbers" to itself and print the result ############
@@ -28,9 +28,9 @@ numbers = [4, 9, 16, 25]
 
 # Code here
 
-
-
-
+x = numbers[1] + numbers[3]
+numbers.append(x)
+print (numbers)
 
 
 ############# Q12. Fill in the missing number between 16 and 36 and print the result ############
@@ -40,8 +40,8 @@ numbers = [4, 9, 16, 36]
 
 # Code here
 
-
-
+numbers.insert(3,25)
+print (numbers)
 
 
 ############# Q13. Remove the element that breaks the pattern and print the result ############
