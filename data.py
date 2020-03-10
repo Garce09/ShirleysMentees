@@ -59,9 +59,10 @@ y = 3
 
 # Code here
 
-
-z = (x % y)
-x /= z*x
+x %= y
+z = x
+p = z*x
+d = x/p 
 print (x)
 
 ############# Q5. Print the square root of x IN 2 DIFFERENT WAYS ############
@@ -74,14 +75,9 @@ x = 9
 
 # Code here
 
-import math
-print(math.sqrt(x))
-print(x**.5)
+print (math.sqrt(x))
 
-
-
-
-
+print (x**.5)
 
 
 ############# Q6. print the phrase "hello world" using the 2 variables defined below ############
@@ -91,8 +87,8 @@ string1 = "hello"
 string2 = "world"
 
 # Code here
-print(string1 + " " + string2)
 
+print (string1 + " " + string2)
 
 
 ############# Q7. Print the phrase "5 dogs" using the 2 variables defined below ############
@@ -102,9 +98,8 @@ integer = 5
 string = "dogs"
 
 # Code here
-print(str(integer) + " " + string)
 
-
+print (str(integer) + " " + string)
 ############# Q8. Print the sum of x and string ############
 # Topic: string concatenation
 
@@ -112,8 +107,8 @@ x = 3
 string = "5"
 
 # Code here
-print(x + int(string))
 
+print (x + int(string))
 
 ############# Q9. Print the sum of the first and third element in the list "numbers" and print the result ############
 # Topic: tuples
