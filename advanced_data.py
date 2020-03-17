@@ -65,13 +65,13 @@ print (numbers)
 
 # Code here
 
+dict = {
+"Alex":100,
+"Kevin":50,
+"Henry":500
+}
 
-
-
-
-
-
-
+print (dict)
 
 
 ############# 
@@ -86,11 +86,19 @@ print (numbers)
 # Code here
 
 
+dict = {
+    "Alex": {
+        "sweater":100
+        },
+    "Kevin": {
+        "bookbag":50
+        },
+    "Henry": {
+        "scarf":500
+        }
+}
 
-
-
-
-
+print (dict[key])
 
 
 
