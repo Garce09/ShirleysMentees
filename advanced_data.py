@@ -86,7 +86,7 @@ print (dict)
 # Code here
 
 
-dict = {
+purchases = {
     "Alex": {
         "sweater":100
         },
@@ -98,9 +98,7 @@ dict = {
         }
 }
 
-print (dict[key])
-
-
+print (purchases)
 
 
 ############# Q15 B. Using the dictionary from Q15, add the following transactions and print the dictionary:
@@ -117,9 +115,22 @@ print (dict[key])
 # Code here
 
 
+purchases = {
+    "Alex": {
+        "sweater":100
+        },
+    "Kevin": {
+        "bookbag":50
+        },
+    "Henry": {
+        "scarf":500
+        }
 
+purchases["Jason"] = {"wallet":250}
+purchases["Michael"] = {"sneakers":50}
+purchases["Andrew"] = {"t-shirt":20, "hoodie":30}
 
-
+print (purchases)
 
 
 
