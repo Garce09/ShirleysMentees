@@ -36,7 +36,12 @@ numbers = list(range(0, 500))
 
 # Code Here
 
+counter = 0
+for number in numbers:
+    if number %2 == 0:
+        counter +=1
 
+print(counter)
 
 
 
@@ -64,6 +69,14 @@ numbers = [1, 2, 3, 4, 5]
 
 # Code here
 
+i = 0
+
+#run this for total # of elements in a list
+
+while i < len(numbers):
+    print(numbers[i] + 5)
+    print("ran", i + 1, "time(s)")
+    i += 1 
 
 
 
